@@ -1,0 +1,60 @@
+<div class="container-fluid">
+  <div class="text-center mt-3">
+    <p class="font-italic display-4 fas fa-bold">Book details</p>
+  </div>
+  <form class="border border-primary mt-3 mr-2 ml-2 p-4">
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="prodName" class="form-control" id="prodName" placeholder="Book Name"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="price" class="form-control" id="price" placeholder="Book Price"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="genre" class="form-control" id="genre" placeholder="Enter genre"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="author" class="form-control" id="author" placeholder="Enter author"/>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="prodtype" class="form-control" id="prodtype" placeholder="Enter type"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="brand" class="form-control" id="brand" placeholder="Enter brand"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" ng-model="design" class="form-control" id="design" placeholder="Enter design"/>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="submit" class="btn btn-primary" value="Save" ng-click="handleCreateProdAction()"/>
+        </div>
+      </div>
+    </div>
+  
+    
+  </form>
+</div>

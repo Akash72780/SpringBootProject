@@ -1,0 +1,29 @@
+<div class="container pad-top mt-3">
+    <h3 class="font-italic mt-3">All books</h3></td>
+    <table class="table table-striped table-inverse table-responsive">
+        <thead>
+            <tr>
+              <th>Book Number</th>
+              <th>Book Name</th>
+              <th>Price</th>
+              <th>Author</th>
+              <th>Type</th>
+              <th>Publisher</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+        <tbody>
+            <tr ng-repeat="product in listofProd" ng-class="{'active': selectedItem == product.id}">
+                <td>{{product.id}}</td>
+                <td>{{product.prodName}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.author}}</td>
+                <td>{{product.type}}</td>
+                <td>{{product.brand}}</td>
+                <td>
+                    <button class="btn btn-primary" ng-click="add2CartProduct(product)">Add to Cart</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+  </div>

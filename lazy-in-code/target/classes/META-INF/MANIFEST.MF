@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: lazy-in-code
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Windows 7
+Implementation-Vendor-Id: com.dummy
+Build-Jdk: 1.8.0_333
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
